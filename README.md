@@ -1,6 +1,6 @@
 # **OVERVIEW**
 
-This project showcases the diffrent project I have worked on for my Fullstack Developer course on Udacity. 
+This project showcases the diffrent project I have worked on for my Fullstack Developer course on Udacity. This project was built with HTML, CSS and Boostrap. Boostrap was used to make the website responsive and added the modal functionality to the projects section of the website.
 
 ## **QUICKSTART**
 
