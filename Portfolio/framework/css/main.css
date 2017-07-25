@@ -1,23 +1,23 @@
-body{
+body {
   color: #2d3c49;
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
 
 /*Overwrite the default font properties for the name in the h1 tag*/
-.text-thin{
+.text-thin {
   font-weight: 100;
   font-size: 60px;
 }
 
 /*Change the Featured Work text color, and move it a bit to the right*/
-.grey-text{
+.grey-text {
   color: #7d97ad;
   padding-left: 1%;
 }
 
 /*overwrite the default blue color for hyperlinks*/
-a{
+a {
   color: inherit;
 }
 
@@ -27,6 +27,6 @@ a{
 }
 
 /*make the horizontal rule thicker*/
-hr{
+hr {
   border: 1px solid #7d97ad;
 }
