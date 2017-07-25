@@ -9,13 +9,13 @@
     rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <main class="container"> <!-- a container to hold the boostrap elements
+    <div class="container"> <!-- a container to hold the boostrap elements
     to achieve responsive design.-->
       <header class="row text-uppercase">
         <nav class="col-md-6 logo">
@@ -23,7 +23,9 @@
         </nav>
         <nav class="col-md-6 text-right">
           <h1 class="text-thin">Chike George</h1>
-          <h4>Front End Ninja</h4>
+          <p>
+            <h4>Front End Ninja</h4>
+          </p>
         </nav>
         <nav class="col-md-12">
           <hr>
@@ -44,7 +46,7 @@
       </section>
 
       <!--Layout for the different projects -->
-      <section class="row text-center text-uppercase">
+      <main class="row text-center text-uppercase">
         <article class="col-md-4">
           <img class ="img-responsive"
           src="img/project1.png" alt="movie trailer image"
@@ -64,8 +66,8 @@
           data-toggle="modal" data-target="#project3">
           <a href="#"><h3>Project 3, Coming Soon!</h3></a>
         </article>
-      </section>
-    </main>
+      </main>
+    </div>
 
     <!-- bootstrap Modal for givining extra information about each project.
   This code was from the bootstrap documentation, with some slight changes.
